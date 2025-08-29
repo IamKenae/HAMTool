@@ -1,0 +1,51 @@
+[
+  {
+    "id": "antennaDict",
+    "type": "dictionary",
+    "name": "天线词典",
+    "items": [
+      "GP天线",
+      "偶极天线",
+      "八木天线",
+      "车载天线",
+      "手持天线"
+    ]
+  },
+  {
+    "id": "deviceDict",
+    "type": "dictionary",
+    "name": "设备词典",
+    "items": [
+      "UV-5R",
+      "FT-817",
+      "IC-7300",
+      "TS-480"
+    ]
+  },
+  {
+    "id": "powerDict",
+    "type": "dictionary",
+    "name": "功率词典",
+    "items": [
+      "5W",
+      "10W",
+      "25W",
+      "50W",
+      "100W",
+      "150W"
+    ]
+  },
+  {
+    "id": "qthDict",
+    "type": "dictionary",
+    "name": "QTH词典",
+    "items": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "杭州"
+    ]
+  }
+]
