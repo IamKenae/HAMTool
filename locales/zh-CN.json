@@ -1,0 +1,1182 @@
+{
+  "app": {
+    "title": "HAMTool",
+    "tagline": "业余无线电工具",
+    "navigation": {
+      "log": "点名记录",
+      "callbook": "呼号词典",
+      "database": "数据库管理",
+      "map": "地图可视化",
+      "license": "许可证管理",
+      "sponsorship": "赞助支持",
+      "importExport": "导入导出",
+      "rollcallMode": "点名模式",
+      "qsoMode": "个人QSO模式",
+      "online": "Online功能",
+      "onlineBadge": "增值"
+    },
+    "messages": {
+      "modeSwitch": "已切换到{mode}"
+    },
+    "panels": {
+      "log": "点名记录管理",
+      "logQso": "个人QSO通联记录",
+      "callbook": "呼号词典管理",
+      "database": "数据库管理",
+      "map": "QTH地图可视化",
+      "license": "许可证管理",
+      "online": "Online增值服务",
+      "sponsorship": "赞助支持"
+    },
+    "tooltips": {
+      "requiresLicense": "需要有效许可证才能使用此功能",
+      "requiresOnline": "需要Online许可证才能使用此功能"
+    },
+    "license": {
+      "requiredTitle": "需要有效许可证",
+      "requiredDescription": "请先在许可证管理页面输入有效的许可证才能使用其他功能。",
+      "goToManagement": "前往许可证管理"
+    },
+    "about": {
+      "title": "关于 HAMTool",
+      "version": "版本",
+      "description": "专为业余无线电爱好者设计的综合工具",
+      "techStack": "技术栈",
+      "copyright": "版权所有",
+      "developerInfo": "开发团队：HamTool Studio",
+      "licenseInfo": "基于MIT许可证开源",
+      "donateText": "如果您觉得这个工具有用，请考虑赞助我们的开发工作"
+    }
+  },
+  "common": {
+    "actions": {
+      "save": "保存",
+      "cancel": "取消",
+      "delete": "删除",
+      "edit": "编辑",
+      "add": "添加",
+      "search": "搜索",
+      "export": "导出",
+      "import": "导入",
+      "refresh": "刷新",
+      "close": "关闭",
+      "confirm": "确认",
+      "back": "返回",
+      "submit": "提交",
+      "reset": "重置",
+      "clear": "清除",
+      "filter": "筛选",
+      "sort": "排序",
+      "copy": "复制",
+      "download": "下载",
+      "upload": "上传",
+      "view": "查看",
+      "select": "选择",
+      "switch": "切换",
+      "activate": "激活",
+      "deactivate": "停用",
+      "enable": "启用",
+      "disable": "禁用",
+      "verify": "验证",
+      "check": "检查",
+      "update": "更新",
+      "upgrade": "升级",
+      "install": "安装",
+      "remove": "移除",
+      "manage": "管理",
+      "config": "配置",
+      "settings": "设置",
+      "help": "帮助",
+      "about": "关于",
+      "exit": "退出",
+      "minimize": "最小化",
+      "maximize": "最大化"
+    },
+    "status": {
+      "loading": "加载中...",
+      "success": "成功",
+      "error": "错误",
+      "warning": "警告",
+      "info": "信息",
+      "processing": "处理中...",
+      "completed": "已完成",
+      "failed": "失败",
+      "pending": "待处理",
+      "running": "运行中",
+      "stopped": "已停止",
+      "paused": "已暂停",
+      "connected": "已连接",
+      "disconnected": "已断开",
+      "online": "在线",
+      "offline": "离线",
+      "available": "可用",
+      "unavailable": "不可用",
+      "valid": "有效",
+      "invalid": "无效",
+      "expired": "已过期",
+      "active": "活跃",
+      "inactive": "非活跃"
+    },
+    "messages": {
+      "confirmDelete": "确定要删除此记录吗？",
+      "operationSuccess": "操作成功",
+      "operationFailed": "操作失败",
+      "saveSuccess": "保存成功",
+      "saveFailed": "保存失败",
+      "loadSuccess": "加载成功",
+      "loadFailed": "加载失败",
+      "networkError": "网络错误",
+      "serverError": "服务器错误",
+      "noData": "暂无数据",
+      "noResults": "没有找到结果",
+      "invalidInput": "输入无效",
+      "requiredField": "此字段为必填项",
+      "fileUploadSuccess": "文件上传成功",
+      "fileUploadFailed": "文件上传失败",
+      "downloadSuccess": "下载成功",
+      "downloadFailed": "下载失败",
+      "copySuccess": "复制成功",
+      "copyFailed": "复制失败",
+      "proxyNotEnabled": "请先启用代理"
+    },
+    "units": {
+      "second": "秒",
+      "minute": "分钟",
+      "hour": "小时",
+      "day": "天",
+      "week": "周",
+      "month": "月",
+      "year": "年",
+      "meter": "米",
+      "kilometer": "千米",
+      "mile": "英里",
+      "watt": "瓦",
+      "kilowatt": "千瓦",
+      "megahertz": "兆赫",
+      "kilohertz": "千赫",
+      "byte": "字节",
+      "kilobyte": "KB",
+      "megabyte": "MB",
+      "gigabyte": "GB"
+    }
+  },
+  "settings": {
+    "title": "应用设置",
+    "interface": "界面设置",
+    "actions": {
+      "openSettings": "设置",
+      "toggleTheme": "切换主题"
+    },
+    "language": {
+      "title": "语言设置",
+      "description": "选择界面语言，并可导入自定义翻译文件。",
+      "current": "当前语言",
+      "selectLabel": "界面语言",
+      "import": "导入翻译",
+      "importHint": "支持 JSON 格式的翻译文件，需包含 locale、name 和 messages 字段。",
+      "customListHint": "已导入的自定义语言",
+      "remove": "移除",
+      "importSuccess": "翻译文件导入成功",
+      "importError": "翻译文件格式无效，请检查后重试",
+      "switchSuccess": "语言已切换",
+      "removed": "已移除自定义翻译"
+    },
+    "theme": {
+      "title": "主题设置",
+      "description": "选择应用的外观主题",
+      "light": "浅色模式",
+      "dark": "深色模式",
+      "auto": "跟随系统",
+      "darkModeEnabled": "已切换至暗黑模式",
+      "lightModeEnabled": "已切换至明亮模式",
+      "autoSwitchToLight": "已自动切换到浅色模式以使用主题",
+      "themes": {
+        "default": "默认主题",
+        "oceanBlue": "海洋之蓝",
+        "sakuraPink": "樱花之粉",
+        "mintGreen": "薄荷之绿",
+        "rainbowPride": "彩虹骄傲"
+      }
+    },
+    "general": {
+      "title": "常规设置",
+      "description": "应用的基本配置",
+      "autoSave": "自动保存",
+      "autoBackup": "自动备份",
+      "notifications": "通知提醒",
+      "soundEffects": "音效",
+      "animations": "动画效果",
+      "developerMode": "开发者模式"
+    },
+    "inputMethod": {
+      "title": "输入法设置"
+    },
+    "qthInput": {
+      "title": "QTH智能输入法",
+      "enabled": "QTH输入法已全局开启",
+      "disabled": "QTH输入法已全局关闭",
+      "description": "支持拼音和简拼输入中国地名，提高QTH字段输入效率"
+    },
+    "modes": {
+      "personalQSODisabled": "请先在设置中启用个人QSO通联记录功能"
+    },
+    "labFeatures": {
+      "onlineOnly": "实验室功能仅对Online许可证用户开放",
+      "features": {
+        "aiAssistant": "AI智能助手",
+        "advancedAnalytics": "高级统计分析",
+        "betaFeatures": "测试版功能",
+        "debugMode": "调试模式",
+        "webSync": "局域网Web同步",
+        "personalQSO": "个人QSO通联记录"
+      },
+      "status": {
+        "enabled": "已开启",
+        "disabled": "已关闭"
+      }
+    },
+    "webSync": {
+      "starting": "正在启动Web同步服务，请稍候...",
+      "stopped": "Web同步服务已关闭",
+      "startSuccess": "Web同步服务已启动！\n\n访问地址：{url}\n\n同局域网内的其他设备可以通过此地址访问和同步操作点名记录。",
+      "startSuccessTitle": "Web同步服务启动成功",
+      "confirm": "确定",
+      "operationFailed": "Web同步功能操作失败，请稍后重试",
+      "copySuccess": "地址已复制到剪贴板",
+      "copyFailed": "复制失败，请手动复制"
+    },
+    "proxy": {
+      "configSaved": "代理配置已保存",
+      "configError": "配置错误: {error}",
+      "saveFailed": "保存失败: {error}",
+      "testFailed": "代理连接测试失败",
+      "enabled": "代理已启用",
+      "disabled": "代理已禁用",
+      "toggleFailed": "代理状态切换失败",
+      "configureFirst": "请配置代理服务器地址和端口后再使用代理功能",
+      "title": "网络代理设置"
+    },
+    "database": {
+      "switching": "正在切换数据库...",
+      "switchSuccess": "已成功切换到数据库: {name}",
+      "nameRequired": "请输入数据库名称",
+      "invalidName": "数据库名称只能包含字母、数字、下划线和连字符",
+      "exists": "数据库 \"{name}\" 已存在，请使用其他名称",
+      "creating": "正在创建新数据库...",
+      "createSuccess": "数据库 \"{name}\" 创建成功并已切换",
+      "confirmReset": "确定要重置为默认数据库吗？这将切换到默认的数据库。",
+      "confirmResetTitle": "确认重置",
+      "confirmButton": "确定",
+      "cancelButton": "取消",
+      "exportSuccess": "导出备份",
+      "selectBackupFile": "请选择备份文件",
+      "confirmImport": "导入备份将覆盖当前数据库的所有数据，确定要继续吗？",
+      "confirmImportTitle": "确认导入备份"
+    },
+    "messages": {
+      "webSyncNotRunning": "Web同步服务未启动",
+      "clientsNotified": "已通知所有客户端刷新数据",
+      "webSyncUnavailable": "Web同步功能不可用",
+      "refreshFailed": "刷新操作失败，请稍后重试",
+      "connectionApproved": "已批准连接请求",
+      "approveConnectionFailed": "批准连接失败",
+      "approveConnectionRetry": "批准连接失败，请重试",
+      "connectionRejected": "已拒绝连接请求",
+      "rejectConnectionFailed": "拒绝连接失败",
+      "rejectConnectionRetry": "拒绝连接失败，请重试",
+      "proxyToggleFailed": "代理状态切换失败",
+      "licenseExpired": "许可证已过期，请重新验证许可证",
+      "licenseValidationError": "许可证验证过程中出现错误",
+      "updateDownloadComplete": "更新下载完成，准备安装",
+      "devModeNoUpdates": "开发模式下无法检查更新",
+      "newVersionFound": "发现新版本！",
+      "alreadyLatestVersion": "当前已是最新版本",
+      "checkUpdateFailed": "检查更新失败，请检查网络连接",
+      "updateDownloadStarted": "开始下载更新...",
+      "updateDownloadFailed": "下载更新失败",
+      "updateInstalling": "正在安装更新，应用即将重启...",
+      "updateInstallFailed": "安装更新失败",
+      "releasePageOpenFailed": "打开Release页面失败，请手动访问更新链接",
+      "cannotOpenNewWindow": "无法打开新窗口，请手动访问更新链接",
+      "updateLinkCopied": "更新链接已复制到剪贴板",
+      "licenseVerified": "许可证验证成功，功能已解锁",
+      "licenseCleared": "许可证已清除，部分功能已锁定",
+      "licenseVerifyFailed": "许可证验证失败，部分功能已锁定"
+    }
+  "navigation": {
+    "logManagement": "日志管理",
+    "callbookManagement": "通讯录管理",
+    "databaseManagement": "数据库管理",
+    "licenseManagement": "许可证管理",
+    "importExport": "导入导出",
+    "qsoManagement": "QSO管理",
+    "mapVisualization": "地图可视化",
+    "sponsorship": "赞助支持",
+    "about": "关于应用",
+    "settings": "应用设置",
+    "help": "帮助文档"
+  },
+  "logManagement": {
+    "title": "通联记录管理",
+    "description": "管理点名和通联记录，支持搜索、筛选和导出功能",
+    "search": {
+      "placeholder": "搜索呼号或QTH...",
+      "filter": {
+        "all": "全部",
+        "recent": "最近",
+        "today": "今天",
+        "thisWeek": "本周",
+        "thisMonth": "本月",
+        "thisYear": "今年"
+      }
+    },
+    "form": {
+      "title": "添加通联记录",
+      "fields": {
+        "controllerCall": "控制呼号",
+        "calledCall": "被点名呼号",
+        "signalReport": "信号报告",
+        "qth": "QTH",
+        "device": "设备",
+        "power": "功率",
+        "antenna": "天线",
+        "height": "高度",
+        "remarks": "备注",
+        "recordTime": "记录时间"
+      },
+      "placeholders": {
+        "controllerCall": "输入控制呼号",
+        "calledCall": "输入被点名呼号",
+        "signalReport": "例如：59",
+        "qth": "输入QTH地名",
+        "device": "使用设备型号",
+        "power": "例如：100W",
+        "antenna": "天线类型",
+        "height": "天线高度",
+        "remarks": "可选备注信息"
+      },
+      "history": {
+        "title": "历史记录",
+        "recent": "最近记录",
+        "noHistory": "暂无历史记录",
+        "selectHistory": "选择历史记录填充表单"
+      },
+      "actions": {
+        "add": "添加记录",
+        "reset": "重置表单",
+        "fillFromHistory": "填充历史数据"
+      }
+    },
+    "table": {
+      "title": "通联记录列表",
+      "headers": {
+        "index": "#",
+        "time": "时间",
+        "controllerCall": "控制呼号",
+        "calledCall": "被点名呼号",
+        "qth": "QTH",
+        "signalReport": "信号报告",
+        "device": "设备",
+        "power": "功率",
+        "antenna": "天线",
+        "height": "高度",
+        "remarks": "备注",
+        "actions": "操作"
+      },
+      "empty": "暂无通联记录",
+      "actions": {
+        "edit": "编辑",
+        "delete": "删除",
+        "copy": "复制"
+      }
+    },
+    "export": {
+      "title": "导出记录",
+      "button": "导出记录",
+      "selectFormat": "选择格式",
+      "fileName": "文件名",
+      "formats": {
+        "json": "JSON格式",
+        "excel": "Excel格式",
+        "csv": "CSV格式"
+      },
+      "options": {
+        "selectAll": "全选",
+        "selectFiltered": "选择筛选结果",
+        "selectDateRange": "选择日期范围"
+      },
+      "actions": {
+        "export": "开始导出",
+        "preview": "预览"
+      }
+    },
+    "validation": {
+      "requiredCalls": "控制呼号和被点名呼号为必填项",
+      "invalidCallFormat": "呼号格式无效",
+      "duplicateRecord": "发现重复记录"
+    },
+    "messages": {
+      "addSuccess": "通联记录添加成功！",
+      "updateSuccess": "通联记录更新成功！",
+      "deleteSuccess": "通联记录删除成功！",
+      "deleteConfirm": "确定要删除这条通联记录吗？",
+      "exportSuccess": "导出成功！",
+      "importSuccess": "导入成功！"
+    }
+  },
+  "callbookManagement": {
+    "title": "呼号通讯录管理",
+    "description": "管理和查询呼号通讯录，支持导入导出和批量操作",
+    "query": {
+      "title": "呼号查询",
+      "callInput": "输入呼号",
+      "queryButton": "查询",
+      "clearButton": "清除",
+      "examples": "示例呼号：BG1ABC, BD2XYZ"
+    },
+    "results": {
+      "title": "查询结果",
+      "noResults": "暂无数据",
+      "addToCallbook": "添加到通讯录",
+      "viewDetails": "查看详情"
+    },
+    "form": {
+      "title": "添加联系人",
+      "fields": {
+        "call": "呼号",
+        "name": "姓名",
+        "qth": "QTH",
+        "address": "地址",
+        "phone": "电话",
+        "email": "邮箱",
+        "remarks": "备注",
+        "group": "分组"
+      },
+      "placeholders": {
+        "call": "例如：BG1ABC",
+        "name": "联系人姓名",
+        "qth": "所在城市",
+        "address": "详细地址",
+        "phone": "联系电话",
+        "email": "电子邮箱",
+        "remarks": "备注信息",
+        "group": "分组名称"
+      },
+      "actions": {
+        "add": "添加联系人",
+        "update": "更新联系人",
+        "reset": "重置表单"
+      }
+    },
+    "table": {
+      "title": "通讯录列表",
+      "search": {
+        "placeholder": "搜索呼号、姓名或QTH..."
+      },
+      "headers": {
+        "call": "呼号",
+        "name": "姓名",
+        "qth": "QTH",
+        "group": "分组",
+        "phone": "电话",
+        "email": "邮箱",
+        "remarks": "备注",
+        "actions": "操作"
+      },
+      "empty": "暂无通讯录记录",
+      "actions": {
+        "edit": "编辑",
+        "delete": "删除",
+        "view": "查看",
+        "call": "呼叫"
+      }
+    },
+    "import": {
+      "title": "批量导入",
+      "description": "支持批量导入呼号信息",
+      "selectFile": "选择文件",
+      "supportedFormats": "支持格式：CSV, Excel",
+      "templateDownload": "下载模板",
+      "preview": "预览数据",
+      "actions": {
+        "import": "开始导入",
+        "cancel": "取消"
+      }
+    },
+    "export": {
+      "title": "导出通讯录",
+      "selectFormat": "选择导出格式",
+      "selectFields": "选择导出字段",
+      "actions": {
+        "export": "开始导出"
+      }
+    },
+    "groups": {
+      "title": "分组管理",
+      "default": "默认分组",
+      "createNew": "新建分组",
+      "groupName": "分组名称",
+      "groupColor": "分组颜色"
+    },
+    "validation": {
+      "requiredCall": "呼号为必填项",
+      "invalidCallFormat": "呼号格式无效",
+      "duplicateCall": "呼号已存在"
+    },
+    "messages": {
+      "addSuccess": "联系人添加成功！",
+      "updateSuccess": "联系人更新成功！",
+      "deleteSuccess": "联系人删除成功！",
+      "deleteConfirm": "确定要删除此联系人吗？",
+      "importSuccess": "批量导入成功！",
+      "exportSuccess": "导出成功！"
+    }
+  },
+  "databaseManagement": {
+    "title": "数据库管理",
+    "description": "管理应用数据库，包括备份、恢复、优化等操作",
+    "operations": {
+      "new": "新建数据库",
+      "switch": "切换数据库",
+      "backup": "备份数据库",
+      "restore": "恢复数据库",
+      "optimize": "优化数据库",
+      "statistics": "统计信息",
+      "compact": "压缩数据库",
+      "repair": "修复数据库"
+    },
+    "info": {
+      "name": "数据库名称",
+      "path": "数据库路径",
+      "size": "数据库大小",
+      "recordCount": "记录数量",
+      "createTime": "创建时间",
+      "lastModified": "最后修改",
+      "lastBackup": "最后备份",
+      "version": "数据库版本"
+    },
+    "statistics": {
+      "title": "统计信息",
+      "logRecords": "通联记录",
+      "callbookEntries": "通讯录条目",
+      "qsoRecords": "QSO记录",
+      "repeaters": "中继站",
+      "totalSize": "总大小",
+      "lastActivity": "最后活动"
+    },
+    "backup": {
+      "title": "备份数据库",
+      "description": "创建数据库的完整备份",
+      "selectLocation": "选择备份位置",
+      "backupName": "备份名称",
+      "includeHistory": "包含历史记录",
+      "compression": "压缩备份",
+      "autoBackup": "自动备份",
+      "backupSchedule": "备份计划",
+      "maxBackups": "最大备份数量"
+    },
+    "restore": {
+      "title": "恢复数据库",
+      "description": "从备份文件恢复数据库",
+      "selectBackup": "选择备份文件",
+      "warning": "恢复操作将覆盖当前数据，请谨慎操作",
+      "verifyBackup": "验证备份文件",
+      "restoreOptions": "恢复选项"
+    },
+    "newDatabase": {
+      "title": "新建数据库",
+      "description": "创建新的数据库文件",
+      "databaseName": "数据库名称",
+      "selectLocation": "选择保存位置",
+      "template": "选择模板",
+      "templates": {
+        "empty": "空数据库",
+        "basic": "基础配置",
+        "full": "完整配置"
+      }
+    },
+    "maintenance": {
+      "title": "维护操作",
+      "description": "定期维护可以保持数据库性能",
+      "optimize": "优化数据库",
+      "compact": "压缩数据库",
+      "reindex": "重建索引",
+      "checkIntegrity": "检查完整性",
+      "cleanHistory": "清理历史记录"
+    },
+    "validation": {
+      "databaseExists": "数据库已存在",
+      "invalidName": "数据库名称无效",
+      "pathNotExists": "路径不存在",
+      "insufficientSpace": "磁盘空间不足"
+    },
+    "messages": {
+      "createSuccess": "数据库创建成功！",
+      "switchSuccess": "数据库切换成功！",
+      "backupSuccess": "备份完成！",
+      "restoreSuccess": "恢复完成！",
+      "optimizeSuccess": "优化完成！",
+      "deleteConfirm": "确定要删除此数据库吗？此操作不可恢复！",
+      "maintenanceComplete": "维护操作完成！"
+    }
+  },
+  "licenseManagement": {
+    "title": "许可证管理",
+    "description": "管理和验证软件许可证，解锁全部功能",
+    "status": {
+      "valid": "许可证有效",
+      "invalid": "许可证无效",
+      "expired": "许可证已过期",
+      "trial": "试用版本",
+      "free": "免费版",
+      "pro": "专业版",
+      "online": "在线版"
+    },
+    "info": {
+      "machineCode": "机器码",
+      "licenseKey": "许可证密钥",
+      "expiryDate": "到期日期",
+      "version": "当前版本",
+      "licenseType": "许可证类型",
+      "activations": "激活次数",
+      "maxActivations": "最大激活数"
+    },
+    "actions": {
+      "activate": "激活许可证",
+      "verify": "验证许可证",
+      "upgrade": "升级版本",
+      "renew": "续期许可证",
+      "deactivate": "停用许可证",
+      "export": "导出许可证",
+      "import": "导入许可证",
+      "refresh": "刷新状态"
+    },
+    "activation": {
+      "title": "激活许可证",
+      "licenseKey": "输入许可证密钥",
+      "machineCode": "机器码说明",
+      "machineCodeHelp": "机器码是您设备的唯一标识，用于许可证验证",
+      "copyMachineCode": "复制机器码",
+      "pasteLicense": "粘贴许可证",
+      "activateButton": "激活",
+      "autoActivation": "在线激活",
+      "offlineActivation": "离线激活"
+    },
+    "features": {
+      "free": {
+        "title": "免费版功能",
+        "items": [
+          "基础通联记录",
+          "简单呼号管理",
+          "本地数据存储"
+        ]
+      },
+      "pro": {
+        "title": "专业版功能",
+        "items": [
+          "完整功能使用",
+          "高级数据管理",
+          "优先技术支持",
+          "云端备份同步"
+        ]
+      },
+      "online": {
+        "title": "在线版功能",
+        "items": [
+          "专业版所有功能",
+          "云端数据同步",
+          "多设备使用",
+          "高级统计分析",
+          "在线协作功能"
+        ]
+      }
+    },
+    "messages": {
+      "activateSuccess": "许可证激活成功！",
+      "activateFailed": "许可证激活失败，请检查密钥是否正确",
+      "verifySuccess": "许可证验证成功！",
+      "verifyFailed": "许可证验证失败",
+      "expiredWarning": "许可证将在{days}天后到期，请及时续期",
+      "expired": "许可证已到期，请续期后继续使用",
+      "invalidLicense": "许可证无效或已被吊销",
+      "maxActivations": "已达到最大激活次数限制",
+      "networkError": "网络错误，无法验证许可证",
+      "copied": "机器码已复制到剪贴板"
+    }
+  },
+  "importExport": {
+    "title": "数据导入导出",
+    "description": "支持多种格式的数据导入导出，方便数据迁移和备份",
+    "import": {
+      "title": "导入数据",
+      "description": "从文件导入数据到当前数据库",
+      "selectFile": "选择文件",
+      "selectFormat": "选择格式",
+      "supportedFormats": "支持的格式",
+      "preview": "预览数据",
+      "mapping": "字段映射",
+      "options": "导入选项",
+      "duplicateHandling": "重复数据处理",
+      "validation": "数据验证",
+      "actions": {
+        "import": "开始导入",
+        "cancel": "取消",
+        "back": "返回"
+      }
+    },
+    "export": {
+      "title": "导出数据",
+      "description": "从当前数据库导出数据",
+      "selectData": "选择数据",
+      "selectFormat": "选择格式",
+      "fileName": "文件名",
+      "options": "导出选项",
+      "dateRange": "日期范围",
+      "fieldSelection": "字段选择",
+      "formatOptions": "格式选项",
+      "actions": {
+        "export": "开始导出",
+        "preview": "预览"
+      }
+    },
+    "formats": {
+      "json": "JSON格式",
+      "excel": "Excel格式",
+      "csv": "CSV格式",
+      "adif": "ADIF格式",
+      "cabrillo": "Cabrillo格式",
+      "xml": "XML格式"
+    },
+    "dataTypes": {
+      "logRecords": "通联记录",
+      "callbook": "通讯录",
+      "qsoRecords": "QSO记录",
+      "repeaters": "中继站",
+      "settings": "应用设置",
+      "allData": "所有数据"
+    },
+    "options": {
+      "includeHeaders": "包含表头",
+      "includeMetadata": "包含元数据",
+      "compressFile": "压缩文件",
+      "encryptData": "加密数据",
+      "validateData": "验证数据",
+      "updateExisting": "更新现有记录",
+      "skipDuplicates": "跳过重复记录",
+      "overwriteDuplicates": "覆盖重复记录"
+    },
+    "messages": {
+      "importSuccess": "数据导入成功！共导入{count}条记录。",
+      "importFailed": "数据导入失败：{error}",
+      "exportSuccess": "数据导出成功！文件已保存到{path}",
+      "exportFailed": "数据导出失败：{error}",
+      "invalidFormat": "不支持的文件格式",
+      "fileNotFound": "文件不存在或无法读取",
+      "permissionDenied": "文件访问权限不足",
+      "diskFull": "磁盘空间不足",
+      "validationFailed": "数据验证失败"
+    }
+  },
+  "qthInput": {
+    "title": "QTH智能输入",
+    "description": "支持中文地名、拼音、简拼的智能输入法",
+    "placeholder": "请输入地名或拼音",
+    "toggle": {
+      "enable": "开启QTH输入法",
+      "disable": "关闭QTH输入法"
+    },
+    "suggestions": {
+      "popularCities": "热门城市",
+      "provinces": "省份",
+      "searchResults": "搜索结果",
+      "noResults": "没有找到匹配的地名",
+      "recent": "最近使用",
+      "favorites": "收藏地点"
+    },
+    "matchTypes": {
+      "exact": "精确匹配",
+      "contains": "包含匹配",
+      "pinyin": "拼音匹配",
+      "shortPinyin": "简拼匹配",
+      "fuzzy": "模糊匹配"
+    },
+    "actions": {
+      "addToFavorites": "添加到收藏",
+      "removeFromFavorites": "移除收藏",
+      "clearHistory": "清除历史",
+      "showOnMap": "在地图上显示"
+    },
+    "help": {
+      "title": "使用帮助",
+      "examples": "输入示例：",
+      "pinyinExample": "beijing - 北京",
+      "shortPinyinExample": "bj - 北京",
+      "chineseExample": "北京 - 北京",
+      "provinceExample": "hubei - 湖北省",
+      "mixExample": "wuhan hubei - 武汉市，湖北省"
+    }
+  },
+  "mapVisualization": {
+    "title": "QTH地图可视化",
+    "description": "在地图上可视化显示QTH位置和通联记录",
+    "controls": {
+      "loadMap": "加载地图",
+      "autoMatch": "自动匹配QTH",
+      "clearCache": "清除缓存",
+      "showHeatmap": "显示热力图",
+      "showRepeaters": "显示中继",
+      "settings": "地图设置",
+      "fullscreen": "全屏显示",
+      "screenshot": "截图",
+      "centerMap": "居中地图",
+      "zoomIn": "放大",
+      "zoomOut": "缩小"
+    },
+    "statistics": {
+      "totalLocations": "QTH位置",
+      "autoMatched": "自动匹配",
+      "manualMarked": "手动标记",
+      "totalRepeaters": "中继",
+      "activeConnections": "活跃连接",
+      "coverage": "覆盖范围"
+    },
+    "settings": {
+      "title": "地图设置",
+      "basicSettings": "基础设置",
+      "defaultProvince": "默认省份",
+      "defaultCity": "默认城市",
+      "defaultZoom": "默认缩放级别",
+      "functionSettings": "功能设置",
+      "repeaterManagement": "中继管理",
+      "appearance": "外观设置",
+      "dataSources": "数据源设置"
+    },
+    "heatmap": {
+      "title": "信号热力图",
+      "legend": "信号强度热力图图例",
+      "intensity": {
+        "weak": "弱",
+        "strong": "强"
+      },
+      "settings": {
+        "radius": "影响半径",
+        "opacity": "透明度",
+        "gradient": "颜色梯度"
+      }
+    },
+    "repeaters": {
+      "title": "中继站管理",
+      "add": "添加中继",
+      "edit": "编辑中继",
+      "delete": "删除中继",
+      "callsign": "呼号",
+      "frequency": "频率",
+      "offset": "频偏",
+      "tone": "亚音",
+      "location": "位置",
+      "description": "描述信息",
+      "status": "状态",
+      "coverage": "覆盖范围",
+      "types": {
+        "fm": "FM中继",
+        "dmr": "DMR中继",
+        "dstar": "D-STAR中继",
+        "ysf": "Yaesu System Fusion",
+        "p25": "P25中继"
+      }
+    },
+    "markers": {
+      "title": "位置标记",
+      "qsoStation": "QSO台站",
+      "homeStation": "家乡台站",
+      "portableStation": "移动台站",
+      "repeater": "中继站",
+      "contestStation": "比赛台站",
+      "specialEvent": "特别活动台"
+    },
+    "layers": {
+      "title": "图层控制",
+      "baseMap": "底图",
+      "qsoLocations": "QSO位置",
+      "callbookEntries": "通讯录位置",
+      "repeaters": "中继站",
+      "heatmap": "热力图",
+      "connections": "连接线",
+      "coverage": "覆盖范围"
+    },
+    "messages": {
+      "mapLoadSuccess": "地图加载成功！",
+      "mapLoadFailed": "地图加载失败，请检查网络连接",
+      "markerAdded": "标记添加成功！",
+      "repeaterAdded": "中继站添加成功！",
+      "locationFound": "找到位置：{location}",
+      "locationNotFound": "未找到位置：{location}",
+      "cacheCleared": "缓存已清除！"
+    }
+  },
+  "qsoManagement": {
+    "title": "个人QSO通联记录",
+    "description": "管理您的业余无线电通联记录，记录每一次精彩的QSO",
+    "statistics": "总计: {{count}} 条QSO记录",
+
+    "form": {
+      "title": "添加新的QSO记录",
+      "fields": {
+        "myCall": "我的呼号",
+        "theirCall": "对方呼号",
+        "frequency": "频率",
+        "mode": "模式",
+        "rstSent": "发送RST",
+        "rstReceived": "接收RST",
+        "qth": "QTH地名",
+        "power": "功率",
+        "qsoDate": "QSO时间",
+        "duration": "通联时长",
+        "band": "频段",
+        "remarks": "备注"
+      },
+      "placeholders": {
+        "myCall": "例如：BG1ABC",
+        "theirCall": "例如：BG1XYZ",
+        "frequency": "例如：14.230",
+        "rstSent": "例如：59",
+        "rstReceived": "例如：59",
+        "qth": "输入地名或拼音",
+        "power": "例如：25W",
+        "duration": "例如：15分钟",
+        "remarks": "可选备注信息",
+        "qsoDate": "选择QSO时间（留空使用当前时间）"
+      },
+      "sections": {
+        "basic": "基本信息",
+        "technical": "技术参数",
+        "additional": "附加信息"
+      },
+      "actions": {
+        "add": "添加QSO记录",
+        "reset": "重置表单",
+        "saveAsTemplate": "保存为模板",
+        "loadTemplate": "加载模板"
+      }
+    },
+
+    "history": {
+      "title": "历史QSO记录",
+      "found": "找到 {{count}} 条历史QSO记录",
+      "recent": "最近QSO",
+      "frequency": "频率",
+      "mode": "模式",
+      "qth": "QTH",
+      "qsoTime": "QSO时间",
+      "dataFilled": "历史QSO数据已填充，可以进行修改",
+      "noHistory": "暂无历史记录"
+    },
+
+    "table": {
+      "title": "QSO记录列表",
+      "search": {
+        "placeholder": "搜索呼号、QTH...",
+        "filters": {
+          "all": "全部",
+          "today": "今天",
+          "thisWeek": "本周",
+          "thisMonth": "本月",
+          "thisYear": "今年"
+        }
+      },
+      "headers": {
+        "index": "#",
+        "myCall": "我的呼号",
+        "theirCall": "对方呼号",
+        "frequency": "频率",
+        "mode": "模式",
+        "band": "频段",
+        "rstSent": "发送RST",
+        "rstReceived": "接收RST",
+        "qth": "QTH",
+        "power": "功率",
+        "duration": "时长",
+        "qsoDate": "QSO时间",
+        "remarks": "备注",
+        "actions": "操作"
+      },
+      "empty": "暂无QSO记录",
+      "summary": "共找到 {{count}} 条记录",
+      "actions": {
+        "edit": "编辑",
+        "delete": "删除",
+        "copy": "复制",
+        "view": "查看",
+        "export": "导出"
+      }
+    },
+
+    "edit": {
+      "title": "编辑QSO记录",
+      "actions": {
+        "save": "保存修改",
+        "cancel": "取消"
+      }
+    },
+
+    "modes": {
+      "ssb": "SSB",
+      "cw": "CW",
+      "fm": "FM",
+      "am": "AM",
+      "ft8": "FT8",
+      "ft4": "FT4",
+      "psk31": "PSK31",
+      "rtty": "RTTY",
+      "sstv": "SSTV",
+      "packet": "Packet",
+      "apr": "APRS",
+      "dstar": "D-STAR",
+      "dmr": "DMR",
+      "c4fm": "C4FM",
+      "fusion": "System Fusion"
+    },
+
+    "bands": {
+      "160m": "160米",
+      "80m": "80米",
+      "60m": "60米",
+      "40m": "40米",
+      "30m": "30米",
+      "20m": "20米",
+      "17m": "17米",
+      "15m": "15米",
+      "12m": "12米",
+      "10m": "10米",
+      "6m": "6米",
+      "4m": "4米",
+      "2m": "2米",
+      "70cm": "70厘米",
+      "23cm": "23厘米"
+    },
+
+    "validation": {
+      "requiredFields": "我的呼号和对方呼号为必填项",
+      "invalidCallFormat": "呼号格式无效",
+      "invalidFrequency": "频率格式无效",
+      "invalidRST": "RST报告格式无效",
+      "futureDate": "QSO时间不能是未来时间",
+      "duplicateQSO": "发现重复的QSO记录"
+    },
+
+    "messages": {
+      "addSuccess": "QSO记录添加成功！",
+      "updateSuccess": "QSO记录更新成功！",
+      "deleteSuccess": "QSO记录删除成功！",
+      "deleteConfirm": "确定要删除与 {{call}} 的QSO记录吗？",
+      "templateSaved": "模板保存成功！",
+      "templateLoaded": "模板加载成功！",
+      "statistics": "本月通联 {{count}} 次，总时长 {{duration}}"
+    },
+
+    "templates": {
+      "title": "QSO模板",
+      "manage": "管理模板",
+      "create": "创建模板",
+      "templateName": "模板名称",
+      "description": "模板描述",
+      "defaultTemplate": "默认模板",
+      "actions": {
+        "apply": "应用模板",
+        "edit": "编辑模板",
+        "delete": "删除模板",
+        "setDefault": "设为默认"
+      }
+    }
+  },
+
+  "sponsorship": {
+    "title": "支持我们的开发",
+    "description": "您的捐款将支撑工作室的开发支出，帮助我们持续改进和维护 HAMTool",
+    "reasons": {
+      "title": "为什么需要您的支持？",
+      "serverMaintenance": "服务器维护费用",
+      "development": "持续开发新功能",
+      "tools": "开发工具和软件许可",
+      "learning": "技术学习和提升",
+      "community": "社区建设和支持"
+    },
+    "payment": {
+      "title": "赞助方式",
+      "wechatPay": "微信支付",
+      "alipay": "支付宝",
+      "bankTransfer": "银行转账",
+      "paypal": "PayPal",
+      "bitcoin": "比特币",
+      "scanInstruction": "使用{{method}}扫描上方二维码进行赞助",
+      "amounts": {
+        "small": "小额赞助 (¥10-50)",
+        "medium": "中等赞助 (¥50-200)",
+        "large": "大额赞助 (¥200+)",
+        "custom": "自定义金额"
+      }
+    },
+    "benefits": {
+      "title": "赞助者权益",
+      "features": [
+        "去除应用内广告",
+        "获得高级功能使用权",
+        "优先技术支持",
+        "参与新功能测试",
+        "在感谢名单中署名",
+        "获得定制化服务"
+      ]
+    },
+    "thanks": {
+      "title": "感谢您的支持！",
+      "message": "每一份捐款都是对我们工作的认可和鼓励，我们会继续努力为业余无线电爱好者提供更好的工具。",
+      "sponsors": "赞助者名单",
+      "totalSponsors": "已有 {{count}} 位爱好者支持了我们",
+      "contact": "如有任何问题或建议，请联系：{{email}}"
+    },
+    "transparency": {
+      "title": "资金使用透明",
+      "description": "我们承诺公开透明地使用每一笔捐款",
+      "reports": "财务报告",
+      "monthlyReport": "月度支出报告",
+      "annualReport": "年度财务总结"
+    }
+  },
+
+  "help": {
+    "title": "帮助文档",
+    "documentation": "在线文档",
+    "tutorial": "使用教程",
+    "faq": "常见问题",
+    "contact": "联系我们",
+    "community": "社区论坛",
+    "bugReport": "报告问题",
+    "featureRequest": "功能建议"
+  },
+
+  "languages": {
+    "zh-CN": "简体中文",
+    "en-US": "English"
+  },
+
+  "errors": {
+    "networkError": "网络连接错误",
+    "serverError": "服务器内部错误",
+    "notFound": "页面不存在",
+    "permissionDenied": "权限不足",
+    "dataCorrupted": "数据损坏",
+    "fileNotFound": "文件未找到",
+    "operationTimeout": "操作超时",
+    "unknownError": "未知错误",
+    "tryAgain": "请稍后重试",
+    "contactSupport": "如问题持续存在，请联系技术支持"
+  },
+
+  "success": {
+    "operationComplete": "操作完成",
+    "dataSaved": "数据已保存",
+    "settingsApplied": "设置已应用",
+    "fileProcessed": "文件处理完成",
+    "allDone": "全部完成"
+  }
+}
