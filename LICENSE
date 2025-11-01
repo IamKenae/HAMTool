@@ -20,18 +20,38 @@ LICENSE TERMS:
    - Commercial use includes any use in a business environment, for profit, or in connection with commercial activities
    - To obtain a commercial license, contact: imkenae@outlook.com
 
-3. RESTRICTIONS
+3. EXCEL EXPORT LICENSE
+   All Excel files exported from HAMTool, whether modified or unmodified, are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0), except with explicit permission from the software author.
+
+   REQUIRED ATTRIBUTION:
+   All exported Excel files must contain the following attribution and it may not be removed:
+   "This Excel spreadsheet was recorded and generated using HAMTool - https://github.com/IamKenae/HAMTool"
+
+   CC BY-NC-SA 4.0 SUMMARY:
+   - Attribution: You must give appropriate credit and provide a link to the license
+   - Non-Commercial: You may not use the material for commercial purposes
+   - Share-Alike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license
+
+   For more information about CC BY-NC-SA 4.0:
+   - English: https://creativecommons.org/licenses/by-nc-sa/4.0/
+   - Chinese: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
+
+   VIOLATION CONSEQUENCES:
+   - The author reserves the right to revoke the license for any violations
+   - Unauthorized commercial use or removal of attribution may result in legal action
+
+4. RESTRICTIONS
    - You may not decompile, disassemble, reverse engineer, or attempt to derive the source code
    - You may not remove or alter any proprietary notices or labels
    - You may not rent, lease, lend, sell, redistribute, or sublicense the Software
    - The Software is provided "as is" without warranty of any kind
 
-4. TERMINATION
+5. TERMINATION
    - This license is effective until terminated
    - Your rights under this license will terminate automatically if you fail to comply with any terms
    - Upon termination, you must cease all use and destroy all copies of the Software
 
-5. CONTACT INFORMATION
+6. CONTACT INFORMATION
    - For commercial licensing inquiries: imkenae@outlook.com
    - QQ: 468292535
 
@@ -54,18 +74,38 @@ LICENSE TERMS:
    - 商业用途包括在商业环境中使用、营利性使用或与商业活动相关的使用
    - 如需获得商业许可，请联系：imkenae@outlook.com
 
-3. 限制条款
+3. Excel导出许可
+   任何从HAMTool导出的Excel表格，无论是否经过后期修改，除软件作者明确允许外，均需遵循知识共享署名-非商业性使用-相同方式共享4.0国际许可协议（CC BY-NC-SA 4.0）。
+
+   必要署名声明：
+   所有导出的Excel文件必须包含以下声明且不可删除：
+   "本Excel表格使用HAMTool记录并生成 - https://github.com/IamKenae/HAMTool"
+
+   CC BY-NC-SA 4.0 概要：
+   - 署名：您必须给予适当的署名并提供许可协议的链接
+   - 非商业性：您不得将材料用于商业目的
+   - 相同方式共享：如果您对材料进行混编、转换或基于材料进行创作，您必须根据相同的许可协议分发您的贡献作品
+
+   关于CC BY-NC-SA 4.0的更多信息：
+   - 英文版：https://creativecommons.org/licenses/by-nc-sa/4.0/
+   - 中文版：https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
+
+   违规后果：
+   - 作者保留对任何违规行为撤销许可的权利
+   - 未经授权的商业用途或移除署名可能导致法律诉讼
+
+4. 限制条款
    - 您不得反编译、反汇编、逆向工程或试图获取源代码
    - 您不得移除或更改任何专有声明或标签
    - 您不得出租、租赁、借出、销售、重新分发或再许可本软件
    - 本软件按"现状"提供，不提供任何形式的保证
 
-4. 终止条款
+5. 终止条款
    - 本许可在终止前一直有效
    - 如果您未能遵守任何条款，您在本许可下的权利将自动终止
    - 终止后，您必须停止所有使用并销毁软件的所有副本
 
-5. 联系信息
+6. 联系信息
    - 商业许可咨询：imkenae@outlook.com
    - QQ：468292535
 
@@ -74,5 +114,5 @@ LICENSE TERMS:
 This license agreement is governed by the laws of the People's Republic of China.
 本许可协议受中华人民共和国法律管辖。
 
-Last updated: January 2025
-最后更新：2025年1月
+Last updated: November 2025
+最后更新：2025年11月
