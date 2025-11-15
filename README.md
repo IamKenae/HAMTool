@@ -1,4 +1,4 @@
-# HamTool - 业余无线电工具软件
+# HamTool by BG5EGG - 业余无线电工具软件
 
 <div align="center">
 
