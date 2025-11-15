@@ -1,4 +1,4 @@
-# HamTool - Amateur Radio Tool Software
+# HamTool by BG5EGG - Amateur Radio Tool Software
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 
 **Professional Amateur Radio Log Management and QSO Recording Tool**
 
-[🌐 English](./README.en.md) | 🇨🇳 简体中文](./README.md)
+[🌐 English](./README.en.md) | [🇨🇳 简体中文](./README.md)
 
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](#downloads)
