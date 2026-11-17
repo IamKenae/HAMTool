@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![HAMTool Logo](public/icon.png)
+<img src="./logo.png" alt="HAMTool Logo" width="160">
 
 **面向业余无线电爱好者的通联日志与协作工具**
 
