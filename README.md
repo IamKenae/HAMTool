@@ -1,298 +1,92 @@
-# HamTool by BG5EGG - 业余无线电工具软件
+# HAMTool
 
 <div align="center">
 
-![HamTool Logo](public/icon.png)
+![HAMTool Logo](public/icon.png)
 
-**专业的业余无线电日志管理和通联记录工具**
+**面向业余无线电爱好者的通联日志与协作工具**
 
-[🌐 English](./README.en.md) | 🇨🇳 简体中文
+[English](./README.en.md) | 简体中文
 
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](#下载)
-[![Version](https://img.shields.io/badge/Version-3.0.0-green.svg)](../../releases)
-[![Beta](https://img.shields.io/badge/Beta-Available-orange.svg)](#beta-版本)
+[![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-blue.svg)](#下载)
+[![Latest release](https://img.shields.io/badge/Release-v6.2.0-green.svg)](https://github.com/IamKenae/HAMTool/releases/latest)
 
-[📥 下载](#下载) • [✨ 功能特性](#功能特性) • [🚀 快速开始](#快速开始) • [📖 使用说明](#使用说明) • [📄 许可证](#许可证) • [📞 联系我们](#联系我们)
+[下载](#下载) · [功能](#功能概览) · [快速开始](#快速开始) · [版本渠道](#版本渠道) · [反馈与联系](#反馈与联系)
 
 </div>
 
-## 📖 项目简介
+HAMTool 帮助业余无线电爱好者记录和管理 QSO，提供呼号与 QTH 资料管理、数据导入导出，以及在线协作等功能。应用提供 Windows、macOS、Linux 桌面版、Android 安装包和 Web 体验版。
 
-HamTool 是一款专为业余无线电爱好者（HAM）设计的现代化桌面应用程序，集成了完整的通联日志管理、呼号查询、QTH地理位置管理等核心功能。基于 Electron + Vue 3 技术栈构建，提供跨平台支持和优雅的用户界面。软件支持多语言国际化、深色模式切换，为HAM们提供专业、高效、便捷的操作体验。
+## 下载
 
-## ✨ 功能特性
+当前稳定版：**v6.2.0**。请从[正式版 GitHub Release](https://github.com/IamKenae/HAMTool/releases/tag/v6.2.0)下载。以下安装包也可直接下载；`.blockmap` 是 Electron 自动更新使用的元数据文件，通常不需要手动下载。
 
-### 🎯 核心功能
-- **📝 通联日志管理** - 完整的QSO记录、编辑、搜索和统计分析
-- **📚 呼号词典管理** - 内置呼号数据库，支持快速查询和批量管理
-- **🌍 QTH地理位置** - 智能地理位置输入，支持拼音、中文和详细地区数据
-- **💾 数据库系统** - 多数据库支持，数据备份恢复，版本冲突处理
+### Windows
 
-### 🎨 用户体验
-- **🌍 多语言支持** - 支持简体中文、英文，可扩展更多语言
-- **🌙 深色模式** - 支持明暗主题自动切换和手动设置
-- **📱 响应式设计** - 适配不同屏幕尺寸，支持移动端访问
-- **⚡ 高性能** - 基于Electron + Vue 3构建，流畅运行
-- **🔒 数据安全** - 本地数据存储，隐私保护，自动备份
+- [HAMTool-6.2.0-x64.exe](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0-x64.exe) — Windows x64 安装程序
 
-### 🚀 高级功能
-- **📤 数据导入导出** - 支持JSON、Excel格式，带CC BY-NC-SA 4.0许可证保护
-- **🔍 高级搜索过滤** - 多条件筛选、排序、全文搜索
-- **📈 统计分析** - 通联数据统计、图表可视化
-- **🌐 Web同步服务** - 实验室功能，支持局域网访问和数据同步
-- **🏷️ 多种操作模式** - 点名模式和个人通联记录模式
+### macOS
 
-### 🛠️ 技术特性
-- **🔧 Beta版本支持** - 独立的Beta版本发布渠道和数据导入功能
-- **📊 数据库版本管理** - 智能版本冲突检测和解决
-- **🌐 国际化框架** - 完整的i18n支持，翻译者信息显示
-- **🔌 插件化架构** - 模块化设计，易于扩展
+- [HAMTool-6.2.0.dmg](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0.dmg) — Intel (x64)
+- [HAMTool-6.2.0-arm64.dmg](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0-arm64.dmg) — Apple silicon (arm64)
 
-## 📥 下载
+### Linux
 
-### 最新版本
+- [HAMTool-6.2.0.AppImage](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0.AppImage) — AppImage
+- [hamtool_6.2.0_amd64.deb](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/hamtool_6.2.0_amd64.deb) — Debian / Ubuntu x64
 
-前往 [Releases 页面](../../releases) 下载适合您操作系统的版本：
+### Android
 
-| 平台 | 文件名 | 说明 |
-|------|--------|------|
-| 🪟 Windows | `HamTool-Setup-x.x.x.exe` | Windows 安装包 |
-| 🍎 macOS | `HamTool-x.x.x.dmg` | macOS 磁盘映像 |
-| 🐧 Linux | `HamTool-x.x.x.AppImage` | Linux 应用镜像 |
+- [app-release.apk](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/app-release.apk) — Android 安装包
+- [app-release.aab](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/app-release.aab) — Android App Bundle，供应用商店分发使用
 
-### Beta 版本
+### Web
 
-> **注意**: Beta 版本包含正在开发中的新功能，可能存在 Bug，仅供测试使用。
+打开[官方 Web 体验版](https://hamtool.kenae.dev/app)。建议使用新域名；旧地址可能仍可访问，但不再作为首选入口。
 
-前往 [HAMTool-Beta Releases](https://github.com/IamKenae/HAMTool-Beta/releases) 下载最新的 Beta 版本：
+## 功能概览
 
-| 平台 | 文件名 | 说明 |
-|------|--------|------|
-| 🪟 Windows | `HAMTool-Beta-Setup-x.x.x.exe` | Windows 安装包 |
-| 🍎 macOS | `HAMTool-Beta-x.x.x.dmg` | macOS 磁盘映像 |
-| 🐧 Linux | `HAMTool-Beta-x.x.x.AppImage` | Linux 应用镜像 |
+- **QSO 日志**：记录、编辑、搜索和统计个人通联及点名记录。
+- **呼号与 QTH 资料**：管理呼号词条、地名与常用输入词库，支持拼音检索。
+- **数据管理**：支持 JSON、Excel 和 ADIF 等格式的导入导出，以及备份与恢复。
+- **协作与主控屏**：在线协作并同步最新记录，主控屏可实时阅读记录。
+- **AI 辅助**：从历史记录提取词库内容，或辅助解析表格并导入 QSO。
+- **无线电与工作流**：包含 FT8、CAT 等相关功能；不同平台或设备的可用能力可能不同。
+- **多平台与主题**：桌面、Web、Android 体验，支持多语言、主题和深色模式。
 
-### 系统要求
+## 快速开始
 
-| 平台 | 最低要求 | 推荐配置 |
-|------|----------|----------|
-| 🪟 Windows | Windows 10 (1903) 或更高版本 | Windows 11 |
-| 🍎 macOS | macOS 10.15 (Catalina) 或更高版本 | macOS 12 (Monterey) 或更高 |
-| 🐧 Linux | 支持 AppImage 的现代发行版 | Ubuntu 20.04+ / CentOS 8+ |
+1. 从上方选择与设备匹配的安装包，或前往[正式版下载页](https://github.com/IamKenae/HAMTool/releases/latest)。
+2. 安装并启动 HAMTool。首次使用时创建或选择日志数据库。
+3. 如有现存日志，可使用数据导入功能；建议在导入或升级前先备份数据。
 
-**硬件要求**:
-- **内存**: 最低 4GB RAM，推荐 8GB 或更多
-- **存储**: 至少 500MB 可用空间
-- **网络**: 可选，用于许可证验证和自动更新
+## 版本渠道
 
-## 🚀 快速开始
+- **正式版**：面向所有用户，通过 [HAMTool Releases](https://github.com/IamKenae/HAMTool/releases) 发布。
+- **Beta 版已停止提供**：HAMTool 不再发布或维护独立 Beta 下载渠道，原 Beta 仓库已归档。
+- **Nightly 版**：用于受邀用户提前体验开发构建，取代原 Beta 测试渠道。Nightly 仓库为私有仓库，仅受邀账号可以访问；如需加入，请通过[开发者 GitHub 主页](https://github.com/IamKenae)联系维护者申请邀请。Nightly 构建可能不稳定，不建议用于唯一或未备份的数据。
 
-### 安装步骤
+## 数据与隐私
 
-1. **下载软件** - 从 [Releases](../../releases) 页面下载对应平台的安装包
-2. **安装运行** - 双击安装包按提示完成安装
-3. **启动软件** - 运行 HamTool 开始使用
+日志和设置由应用本地数据存储功能管理。在线账户、云同步、AI、许可证验证和协作等功能会按使用情况连接 HAMTool 服务或相应第三方服务。请在使用前阅读应用中的隐私与许可说明，并定期导出备份。
 
-### 首次使用
+## 反馈与联系
 
-1. **创建数据库** - 首次启动时会自动创建默认数据库
-2. **导入数据** - 可选择导入现有的日志数据
-3. **配置设置** - 根据需要调整软件设置
+- **问题反馈与功能建议**：[GitHub Issues](https://github.com/IamKenae/HAMTool/issues)
+- **开发者**：IamKenae (BG5EGG)
+- **电子邮件**：bg5egg@outlook.com
+- **项目主页**：[github.com/IamKenae/HAMTool](https://github.com/IamKenae/HAMTool)
+- **官方 Web 体验版**：[hamtool.kenae.dev/app](https://hamtool.kenae.dev/app)
 
-## 📖 使用说明
+## 许可
 
-### 日志管理
+HAMTool 使用专有许可证。使用软件及其导入、导出功能时，请阅读仓库中的 [LICENSE](LICENSE) 并遵守其中条款。第三方组件和导出数据可能分别受其各自许可约束。
 
-- **新建记录**: 点击"新增"按钮创建通联记录
-- **编辑记录**: 双击记录行进行编辑
-- **搜索过滤**: 使用搜索框和过滤器快速定位记录
-- **批量操作**: 支持批量删除和导出
+## 开发技术
 
-### 呼号查询
+HAMTool 使用 Svelte 5 与 Vite 构建界面，Electron 提供桌面容器，Capacitor 用于 Android，Rust/WASM 提供部分底层能力。仓库还包含 PHP 后端服务。开发与构建说明见项目中的 `package.json`、`backend/` 和 `android/`。
 
-- **快速查询**: 在呼号输入框输入呼号即可查询
-- **数据管理**: 可添加、编辑、删除呼号信息
-- **批量导入**: 支持从文件批量导入呼号数据
+## 更新记录
 
-### QTH地理位置
-
-- **智能输入**: 支持拼音和中文输入
-- **热门城市**: 快速选择常用城市
-- **详细数据**: 包含完整的中国省市区数据
-
-### 数据导入导出
-
-- **支持格式**: JSON、Excel (xlsx)
-- **导出选项**: 可选择导出全部或筛选后的数据
-- **导入验证**: 自动验证导入数据格式
-
-## 🛠️ 技术架构
-
-### 前端技术栈
-- **框架**: Vue 3 (Composition API) + Element Plus
-- **构建工具**: Vite + electron-vite
-- **样式**: Bootstrap 5 + 自定义CSS + FontAwesome
-- **国际化**: Vue I18n
-- **状态管理**: Vue 3 响应式API
-
-### 桌面应用
-- **框架**: Electron (最新版本)
-- **打包**: electron-builder
-- **自动更新**: electron-updater
-- **跨平台**: Windows/macOS/Linux
-
-### 数据存储
-- **本地数据库**: IndexedDB
-- **备份系统**: JSON/Excel导入导出
-- **版本管理**: 数据库版本控制和迁移
-
-### 后端服务
-- **许可证服务**: Node.js + Express (Vercel部署)
-- **激活网站**: Nuxt.js
-- **Web同步**: Express + WebSocket (局域网)
-
-### 开发工具
-- **包管理**: npm
-- **代码规范**: ESLint
-- **版本控制**: Git
-- **发布**: GitHub Actions + GitHub Releases
-
-## 📄 许可证
-
-本软件采用专有许可证，详情请查看 [LICENSE](LICENSE) 文件。
-
-### 许可证类型
-
-#### 🆓 社区版许可证 (Community)
-- ✅ **非商业用途**: 个人、教育、研究用途免费使用
-- 📊 **Excel导出**: 遵循CC BY-NC-SA 4.0协议，需包含署名信息
-- 🌐 **基础功能**: 包含所有核心功能
-- ⚠️ **使用限制**: 不可用于商业目的
-
-#### 💼 商业版许可证 (Commercial)
-- 💼 **商业用途**: 可用于商业环境和营利性活动
-- 📊 **无限制导出**: Excel导出无额外许可限制
-- 🌐 **全部功能**: 包含所有高级功能和实验室功能
-
-#### 🌐 在线版许可证 (Online)
-- 🔧 **高级功能**: 包含Web同步服务和其他实验室功能
-- 📊 **无限制导出**: Excel导出无额外许可限制
-- 📊 **云服务**: 在线数据同步和备份
-- 🔄 **自动更新**: 自动获取最新版本
-- 📱 **移动支持**: 移动端Web界面访问
-
-### Excel导出许可条款
-
-根据许可证第3条，所有Excel导出文件遵循 **CC BY-NC-SA 4.0** 协议：
-
-- **署名要求**: 必须包含"本Excel表格使用HAMTool记录并生成"及GitHub链接
-- **非商业性**: 不得用于商业目的
-- **相同方式共享**: 衍生作品需使用相同协议
-
-### 法律条款
-
-- 🔒 **源代码**: 不开源，受版权保护
-- ⚖️ **法律管辖**: 受中华人民共和国法律管辖
-- 📧 **联系方式**: 许可证咨询 imkenae@outlook.com
-
-## 📞 联系我们
-
-### 开发者信息
-
-- **呼号**: BG5EGG
-- **邮箱**: imkenae@outlook.com
-- **QQ**: 468292535
-
-### 商业合作
-
-如需商业许可证或定制开发，请通过以上联系方式与我们联系。
-
-### 问题反馈
-
-- **Bug 报告**: 请在 [Issues](../../issues) 页面提交
-- **功能建议**: 欢迎提出改进建议
-- **使用问题**: 可通过邮箱或QQ咨询
-
-## 📝 更新日志
-
-### v3.0.0 (2025-11-02) - 重大更新 🆕
-- 🌍 **多语言支持**: 完整的中英文国际化系统
-- 🔧 **Beta版本系统**: 独立的Beta版本发布渠道
-- 📊 **数据库版本管理**: 智能版本冲突检测和解决
-- 📤 **Excel导出许可**: CC BY-NC-SA 4.0协议保护和确认
-- 🌐 **Web同步服务**: 实验室功能，局域网访问支持
-- 🏷️ **多模式操作**: 点名模式和个人通联记录模式
-- 🎨 **界面优化**: 深色模式、主题切换、响应式设计
-- ⚡ **性能提升**: 数据处理速度和内存使用优化
-
-### v2.1.3 (2025-08-30) - 安全更新
-- 🔒 **许可证系统**: 增强验证逻辑和安全机制
-- 🐛 **Bug修复**: 解决稳定性问题和用户体验问题
-- ⚡ **性能优化**: 数据库操作和界面响应速度提升
-
-### v2.1.2 (2025-08-29) - 功能优化
-- 🔧 **功能改进**: 界面交互和用户体验优化
-- 🐛 **Bug修复**: 修复已知问题和稳定性改进
-- ⚡ **性能提升**: 数据处理和内存使用优化
-
-### v2.1.1 (2025-08-29) - 快速修复
-- 🐛 **紧急修复**: 解决关键功能问题
-- 🔧 **调整优化**: 界面细节调整和改进
-- ⚡ **稳定性**: 提高应用运行稳定性
-
-### v2.1.0 (2025-08-29) - 功能增强
-- 📱 **移动端支持**: 响应式设计和移动端优化
-- 🌙 **深色模式**: 完整的主题切换系统
-- 📊 **统计分析**: 通联数据可视化图表
-- 🔍 **搜索优化**: 高级搜索和过滤器功能
-
-### v2.0.0 (2025-08-29) - 重大版本发布
-- 🎯 **核心功能**: 完整的通联日志和呼号管理
-- 💾 **数据系统**: 多数据库支持和备份恢复
-- 🌍 **QTH管理**: 智能地理位置输入和管理
-- 📊 **导入导出**: JSON和Excel数据交换功能
-
-## 🗺️ 开发路线图
-
-### 即将推出 (v3.1.0)
-- 🗺️ **地图可视化**: QTH位置地图展示和热力图
-- 📡 **设备集成**: 无线设备控制和数据同步
-- 📱 **移动应用**: 原生移动端应用开发
-- ☁️ **云同步**: 云端数据备份和同步服务
-
-### 长期计划
-- 🤖 **AI助手**: 智能通联助手和建议系统
-- 📡 **SDR集成**: 软件定义无线电支持
-- 🌐 **社区功能**: HAM社区交流和数据共享
-- 🔧 **插件系统**: 第三方插件开发框架
-
-## 🤝 贡献指南
-
-我们欢迎HAM社区的反馈和建议：
-
-- **Bug报告**: 请在 [Issues](../../issues) 中详细描述问题
-- **功能建议**: 欢迎提出新功能想法和改进建议
-- **测试反馈**: Beta版本测试反馈特别欢迎
-- **翻译贡献**: 帮助完善多语言支持
-
-## 🙏 致谢
-
-感谢所有业余无线电爱好者的支持和反馈，特别是：
-- 提供宝贵意见的测试用户
-- 帮助改进软件功能的建设性反馈
-- 业余无线电社区的支持和鼓励
-
----
-
-<div align="center">
-
-**HamTool - 让业余无线电更简单** 📻
-
-[📧 联系我们](#联系我们) • [📄 许可证](#许可证) • [⭐ 支持项目](../../stargazers)
-
-Copyright © 2025 IamKenae (BG5EGG). All rights reserved.
-
-Made with ❤️ for the HAM community
-
-</div>
+查看 [完整更新记录](./CHANGELOG.md) 或[全部 Releases](https://github.com/IamKenae/HAMTool/releases)。
