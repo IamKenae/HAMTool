@@ -65,7 +65,7 @@ HAMTool 帮助业余无线电爱好者记录和管理 QSO，提供呼号与 QTH 
 
 - **正式版**：面向所有用户，通过 [HAMTool Releases](https://github.com/IamKenae/HAMTool/releases) 发布。
 - **Beta 版已停止提供**：HAMTool 不再发布或维护独立 Beta 下载渠道，原 [HAMTool-Beta 仓库](https://github.com/IamKenae/HAMTool-Beta)已归档。
-- **Nightly 版**：用于受邀用户提前体验开发构建，取代原 Beta 测试渠道。请访问私有的 [HAMTool-Nightly 仓库](https://github.com/IamKenae/HAMTool-Nightly)；仅受邀账号可以访问。如需加入，请通过[开发者 GitHub 主页](https://github.com/IamKenae)联系维护者申请邀请。Nightly 构建可能不稳定，不建议用于唯一或未备份的数据。
+- **Nightly 版**：用于受邀用户提前体验开发构建，取代原 Beta 测试渠道。请访问私有的 [HAMTool-Nightly 仓库](https://github.com/IamKenae/HAMTool-Nightly)；仅受邀账号可以访问。如需申请邀请，请填写[Nightly 申请表（中文）](https://forms.cloud.microsoft/r/WChAR8iBsi)，也可通过[开发者 GitHub 主页](https://github.com/IamKenae)联系维护者。Nightly 构建可能不稳定，不建议用于唯一或未备份的数据。
 
 ## 数据与隐私
 
