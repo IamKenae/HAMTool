@@ -64,8 +64,8 @@ Open the [official web experience](https://hamtool.kenae.dev/app). The new domai
 ## Release channels
 
 - **Stable:** Available to all users from [HAMTool Releases](https://github.com/IamKenae/HAMTool/releases).
-- **Beta has been discontinued:** HAMTool no longer publishes or maintains a separate Beta download channel. The former Beta repository has been archived.
-- **Nightly:** Early development builds for invited testers replace the former Beta testing channel. The Nightly repository is private and can only be accessed by invited accounts. To request an invitation, contact the maintainer through the [developer's GitHub profile](https://github.com/IamKenae). Nightly builds may be unstable; do not use them with your only copy of important data.
+- **Beta has been discontinued:** HAMTool no longer publishes or maintains a separate Beta download channel. The former [HAMTool-Beta repository](https://github.com/IamKenae/HAMTool-Beta) has been archived.
+- **Nightly:** Early development builds for invited testers replace the former Beta testing channel. Visit the private [HAMTool-Nightly repository](https://github.com/IamKenae/HAMTool-Nightly); access is limited to invited accounts. To request an invitation, contact the maintainer through the [developer's GitHub profile](https://github.com/IamKenae). Nightly builds may be unstable; do not use them with your only copy of important data.
 
 ## Data and privacy
 
