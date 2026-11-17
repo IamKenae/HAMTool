@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![HAMTool Logo](public/icon.png)
+<img src="./logo.png" alt="HAMTool Logo" width="160">
 
 **QSO logging and collaboration for amateur radio operators**
 
