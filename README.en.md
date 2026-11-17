@@ -1,283 +1,92 @@
-# HamTool by BG5EGG - Amateur Radio Tool Software
+# HAMTool
 
 <div align="center">
 
-![HamTool Logo](public/icon.png)
+![HAMTool Logo](public/icon.png)
 
-**Professional Amateur Radio Log Management and QSO Recording Tool**
+**QSO logging and collaboration for amateur radio operators**
 
-[🌐 English](./README.en.md) | [🇨🇳 简体中文](./README.md)
+[English](./README.en.md) | [简体中文](./README.md)
 
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue.svg)](#downloads)
-[![Version](https://img.shields.io/badge/Version-3.0.0-green.svg)](../../releases)
-[![Beta](https://img.shields.io/badge/Beta-Available-orange.svg)](#beta-versions)
+[![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-blue.svg)](#downloads)
+[![Latest release](https://img.shields.io/badge/Release-v6.2.0-green.svg)](https://github.com/IamKenae/HAMTool/releases/latest)
 
-[📥 Downloads](#downloads) • [✨ Features](#features) • [🚀 Quick Start](#quick-start) • [📖 User Guide](#user-guide) • [📄 License](#license) • [📞 Contact Us](#contact-us)
+[Downloads](#downloads) · [Features](#features) · [Quick start](#quick-start) · [Release channels](#release-channels) · [Support](#support)
 
 </div>
 
-## 📖 Project Overview
+HAMTool helps amateur radio operators record and manage QSOs. It includes callsign and QTH data management, data import and export, and online collaboration. HAMTool is available as a desktop app for Windows, macOS, and Linux, an Android package, and a web experience.
 
-HamTool is a modern desktop application designed specifically for amateur radio enthusiasts (HAM), integrating comprehensive QSO log management, call sign queries, QTH location management, and other core features. Built with Electron + Vue 3 technology stack, it provides cross-platform support and an elegant user interface. The software supports multi-language internationalization, dark mode switching, offering HAMs a professional, efficient, and convenient user experience.
+## Downloads
 
-## ✨ Features
+Current stable release: **v6.2.0**. Download it from the [official GitHub Release](https://github.com/IamKenae/HAMTool/releases/tag/v6.2.0), or use the direct links below. `.blockmap` files are metadata used by Electron's auto-updater and generally do not need to be downloaded manually.
 
-### 🎯 Core Features
-- **📝 QSO Log Management** - Complete QSO recording, editing, searching, and statistical analysis
-- **📚 Callbook Management** - Built-in call sign database with fast queries and batch management
-- **🌍 QTH Location Services** - Intelligent location input supporting Pinyin, Chinese, and detailed regional data
-- **💾 Database System** - Multi-database support with backup/restore and version conflict handling
+### Windows
 
-### 🎨 User Experience
-- **🌍 Multi-Language Support** - Supports Simplified Chinese and English, extensible for more languages
-- **🌙 Dark Mode** - Supports automatic and manual light/dark theme switching
-- **📱 Responsive Design** - Adapts to different screen sizes, supports mobile access
-- **⚡ High Performance** - Built with Electron + Vue 3 for smooth operation
-- **🔒 Data Security** - Local data storage with privacy protection and automatic backup
+- [HAMTool-6.2.0-x64.exe](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0-x64.exe) — Windows x64 installer
 
-### 🚀 Advanced Features
-- **📤 Data Import/Export** - Supports JSON and Excel formats with CC BY-NC-SA 4.0 license protection
-- **🔍 Advanced Search & Filter** - Multi-condition filtering, sorting, and full-text search
-- **📈 Statistical Analysis** - QSO data statistics and chart visualization
-- **🌐 Web Sync Service** - Lab feature supporting LAN access and data synchronization
-- **🏷️ Multiple Operation Modes** - Roll call mode and personal QSO recording mode
+### macOS
 
-### 🛠️ Technical Features
-- **🔧 Beta Version Support** - Independent beta release channel with data import functionality
-- **📊 Database Version Management** - Intelligent version conflict detection and resolution
-- **🌐 Internationalization Framework** - Complete i18n support with translator information display
-- **🔌 Plugin Architecture** - Modular design for easy extensibility
+- [HAMTool-6.2.0.dmg](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0.dmg) — Intel (x64)
+- [HAMTool-6.2.0-arm64.dmg](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0-arm64.dmg) — Apple silicon (arm64)
 
-## 📥 Downloads
+### Linux
 
-### Stable Releases
+- [HAMTool-6.2.0.AppImage](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/HAMTool-6.2.0.AppImage) — AppImage
+- [hamtool_6.2.0_amd64.deb](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/hamtool_6.2.0_amd64.deb) — Debian / Ubuntu x64
 
-**Latest Version: 3.0.0**
+### Android
 
-Download from [GitHub Releases](../../releases):
+- [app-release.apk](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/app-release.apk) — Android installer package
+- [app-release.aab](https://github.com/IamKenae/HAMTool/releases/download/v6.2.0/app-release.aab) — Android App Bundle for app-store distribution
 
-| Platform | File Name | Description |
-|----------|-----------|-------------|
-| 🪟 Windows | `HamTool-Setup-3.0.0.exe` | Windows Installer |
-| 🍎 macOS | `HamTool-3.0.0.dmg` | macOS Disk Image |
-| 🐧 Linux | `HamTool-3.0.0.AppImage` | Linux Application Image |
+### Web
 
-### Beta Versions
+Open the [official web experience](https://hamtool.kenae.dev/app). The new domain is recommended; the previous address may remain available but is no longer the preferred entry point.
 
-> **Note**: Beta versions include new features under development and may contain bugs. Use for testing purposes only.
+## Features
 
-Visit [HAMTool-Beta Releases](https://github.com/IamKenae/HAMTool-Beta/releases) to download the latest beta versions:
+- **QSO logs:** Record, edit, search, and review personal QSOs and roll-call logs.
+- **Callsign and QTH data:** Manage callsign entries, place names, and frequently used input terms, with pinyin search support.
+- **Data management:** Import and export formats including JSON, Excel, and ADIF; back up and restore data.
+- **Collaboration and control-room display:** Collaborate online with synchronized latest records and a live reading display.
+- **AI assistance:** Extract dictionary entries from past records or help parse spreadsheets into QSO data.
+- **Radio and workflow tools:** Includes FT8- and CAT-related features; availability can vary by platform and equipment.
+- **Multiple platforms and themes:** Desktop, web, and Android experiences, with localization, themes, and dark mode.
 
-| Platform | File Name | Description |
-|----------|-----------|-------------|
-| 🪟 Windows | `HAMTool-Beta-Setup-x.x.x.exe` | Windows Installer |
-| 🍎 macOS | `HAMTool-Beta-x.x.x.dmg` | macOS Disk Image |
-| 🐧 Linux | `HAMTool-Beta-x.x.x.AppImage` | Linux Application Image |
+## Quick start
 
-### System Requirements
+1. Choose the installer for your device above, or visit the [stable releases page](https://github.com/IamKenae/HAMTool/releases/latest).
+2. Install and launch HAMTool. Create or select a log database on first use.
+3. Import existing logs if needed. Back up your data before importing or upgrading.
 
-| Platform | Minimum Requirements | Recommended Configuration |
-|----------|----------------------|---------------------------|
-| 🪟 Windows | Windows 10 (1903) or higher | Windows 11 |
-| 🍎 macOS | macOS 10.15 (Catalina) or higher | macOS 12 (Monterey) or higher |
-| 🐧 Linux | Modern Linux distribution with AppImage support | Ubuntu 20.04+ / CentOS 8+ |
+## Release channels
 
-**Hardware Requirements**:
-- **Memory**: Minimum 4GB RAM, recommended 8GB or more
-- **Storage**: At least 500MB available space
-- **Network**: Optional, for license verification and automatic updates
+- **Stable:** Available to all users from [HAMTool Releases](https://github.com/IamKenae/HAMTool/releases).
+- **Beta has been discontinued:** HAMTool no longer publishes or maintains a separate Beta download channel. The former Beta repository has been archived.
+- **Nightly:** Early development builds for invited testers replace the former Beta testing channel. The Nightly repository is private and can only be accessed by invited accounts. To request an invitation, contact the maintainer through the [developer's GitHub profile](https://github.com/IamKenae). Nightly builds may be unstable; do not use them with your only copy of important data.
 
-## 🚀 Quick Start
+## Data and privacy
 
-### Installation
+Logs and settings are managed by the app's local data-storage features. Online accounts, cloud sync, AI, license validation, and collaboration connect to HAMTool services or relevant third-party services as needed. Review the privacy and license notices in the app and export backups regularly.
 
-1. **Download**: Download the appropriate installer for your platform from the releases page
-2. **Install**: Run the installer and follow the installation wizard
-3. **Launch**: Start HamTool from your applications menu
+## Support
 
-### First Time Setup
+- **Bug reports and feature requests:** [GitHub Issues](https://github.com/IamKenae/HAMTool/issues)
+- **Developer:** IamKenae (BG5EGG)
+- **Email:** bg5egg@outlook.com
+- **Project:** [github.com/IamKenae/HAMTool](https://github.com/IamKenae/HAMTool)
+- **Web experience:** [hamtool.kenae.dev/app](https://hamtool.kenae.dev/app)
 
-1. **License Activation**: On first launch, enter your license key
-   - Community users can obtain a free license from the activation website
-   - Commercial users should contact support for commercial licensing
+## License
 
-2. **Language Settings**: Choose your preferred interface language
-   - Go to **Settings** → **Interface Language**
-   - Select from available languages (Chinese/English)
+HAMTool is distributed under a proprietary license. Read the repository's [LICENSE](LICENSE) and comply with its terms when using the software and its import/export features. Third-party components and exported data may be subject to their own licenses.
 
-3. **Database Setup**: Create your first QSO database
-   - Go to **Database Management** → **New Database**
-   - Enter a descriptive name for your database
+## Development
 
-### Basic Usage
+HAMTool uses Svelte 5 and Vite for its interface, Electron for the desktop shell, Capacitor for Android, and Rust/WASM for selected low-level capabilities. The repository also contains PHP backend services. See `package.json`, `backend/`, and `android/` for development and build details.
 
-1. **Add QSO Records**: Click **Log Management** → **Add New Record**
-2. **Search Call Signs**: Use **Callbook Management** for quick call sign lookups
-3. **Export Data**: Use **Import/Export** → **Export** to save your logs in various formats
+## Changelog
 
-## 🛠️ Technical Architecture
-
-### Frontend Stack
-- **Framework**: Vue 3 (Composition API) + Element Plus
-- **Build Tool**: Vite + electron-vite
-- **Styling**: Bootstrap 5 + Custom CSS + FontAwesome
-- **Internationalization**: Vue I18n
-- **State Management**: Vue 3 Reactive API
-
-### Desktop Application
-- **Framework**: Electron (latest version)
-- **Packaging**: electron-builder
-- **Auto Updates**: electron-updater
-- **Cross-Platform**: Windows/macOS/Linux
-
-### Data Storage
-- **Local Database**: IndexedDB
-- **Backup System**: JSON/Excel import/export
-- **Version Management**: Database version control and migration
-
-### Backend Services
-- **License Service**: Node.js + Express (Vercel deployment)
-- **Activation Website**: Nuxt.js
-- **Web Sync**: Express + WebSocket (for LAN access)
-
-### Development Tools
-- **Package Manager**: npm
-- **Code Standards**: ESLint
-- **Version Control**: Git
-- **Release**: GitHub Actions + GitHub Releases
-
-## 📄 License
-
-This software is distributed under a proprietary license. Please see the [LICENSE](LICENSE) file for details.
-
-### License Types
-
-#### 🆓 Community License (Free)
-- ✅ **Non-Commercial Use**: Free for personal, educational, and research purposes
-- 📊 **Excel Export**: Subject to CC BY-NC-SA 4.0 agreement, requires attribution
-- 🌐 **Basic Features**: Includes all core functionality
-- ⚠️ **Usage Restrictions**: Not for commercial purposes
-
-#### 💼 Commercial License
-- 💼 **Commercial Use**: Can be used in business environments and for profit
-- 📊 **Unrestricted Export**: Excel export without additional license restrictions
-- 🌐 **All Features**: Includes all advanced features and lab features
-
-#### 🌐 Online License
-- 🔧 **Advanced Features**: Includes Web Sync service and other lab features
-- 📊 **Unrestricted Export**: Excel export without additional license restrictions
-- 📊 **Cloud Services**: Online data synchronization and backup
-- 🔄 **Auto Updates**: Automatic updates to latest version
-- 📱 **Mobile Support**: Mobile-friendly web interface access
-
-### Excel Export License Terms
-
-According to Article 3 of the license, all Excel exports follow **CC BY-NC-SA 4.0**:
-
-- **Attribution Required**: Must include "This Excel spreadsheet was recorded and generated using HamTool" with GitHub link
-- **Non-Commercial**: May not be used for commercial purposes
-- **Share-Alike**: Derivative works must use the same license
-
-### Legal Terms
-
-- 🔒 **Source Code**: Not open source, protected by copyright
-- ⚖️ **Legal Jurisdiction**: Governed by laws of People's Republic of China
-- 📧 **Contact**: License inquiries at imkenae@outlook.com
-
-## 📞 Contact Us
-
-### Developer Information
-- **Author**: IamKenae (BG5EGG)
-- **Email**: imkenae@outlook.com
-- **QQ**: 468292535
-- **GitHub**: [@IamKenae](https://github.com/IamKenae)
-
-### Support & Feedback
-- **Bug Reports**: Please report issues with detailed descriptions and screenshots
-- **Feature Suggestions**: Welcome to propose new features and improvements
-- **Usage Questions**: Feel free to contact us via email or QQ
-- **Community Support**: Join our community for discussions and sharing
-
-## 📝 Changelog
-
-### v3.0.0 (2025-11-02) - Major Update 🆕
-- 🌍 **Multi-Language Support**: Complete Chinese and English internationalization system
-- 🔧 **Beta Version System**: Independent beta version release channel
-- 📊 **Database Version Management**: Intelligent version conflict detection and resolution
-- 📤 **Excel Export License**: CC BY-NC-SA 4.0 compliance and confirmation
-- 🌐 **Web Sync Service**: Lab feature for LAN access support
-- 🏷️ **Multi-Mode Operations**: Roll call mode and personal QSO recording mode
-- 🎨 **UI Improvements**: Dark mode, theme switching, responsive design
-- ⚡ **Performance Improvements**: Data processing speed and memory usage optimization
-
-### v2.1.3 (2025-08-30) - Security Update
-- 🔒 **License System**: Enhanced verification logic and security mechanisms
-- 🐛 **Bug Fixes**: Resolved stability issues and user experience problems
-- ⚡ **Performance Optimization**: Database operations and interface response speed improvements
-
-### v2.1.2 (2025-08-29) - Feature Optimization
-- 🔧 **Feature Improvements**: UI interaction and user experience optimization
-- 🐛 **Bug Fixes**: Fixed known issues and stability improvements
-- ⚡ **Performance Boost**: Data processing and memory usage optimization
-
-### v2.1.1 (2025-08-29) - Quick Fix
-- 🐛 **Emergency Fix**: Resolved critical functionality issues
-- 🔧 **Adjustment Optimization**: UI detail adjustments and improvements
-- ⚡ **Stability**: Improved application runtime stability
-
-### v2.1.0 (2025-08-29) - Feature Enhancement
-- 📱 **Mobile Support**: Responsive design and mobile optimization
-- 🌙 **Dark Mode**: Complete theme switching system
-- 📊 **Statistics**: QSO data visualization charts
-- 🔍 **Search Optimization**: Advanced search and filter functionality
-
-### v2.0.0 (2025-08-29) - Major Version Release
-- 🎯 **Core Features**: Complete QSO logging and call sign management
-- 💾 **Data System**: Multi-database support with backup and restore
-- 🌍 **QTH Management**: Intelligent location input and management
-- 📊 **Import/Export**: JSON and Excel data exchange functionality
-
-## 🗺️ Development Roadmap
-
-### Coming Soon (v3.1.0)
-- 🗺️ **Map Visualization**: QTH location map display and heat maps
-- 📡 **Device Integration**: Radio equipment control and data synchronization
-- 📱 **Mobile App**: Native mobile application development
-- ☁️ **Cloud Sync**: Cloud data backup and synchronization services
-
-### Long-Term Plans
-- 🤖 **AI Assistant**: Intelligent QSO assistant and recommendation system
-- 📡 **SDR Integration**: Software Defined Radio support
-- 🌐 **Community Features**: HAM community communication and data sharing
-- 🔧 **Plugin System**: Third-party plugin development framework
-
-## 🤝 Contributing Guidelines
-
-We welcome feedback and suggestions from the HAM community:
-
-- **Bug Reports**: Please provide detailed problem descriptions in [Issues](../../issues)
-- **Feature Suggestions**: Welcome new feature ideas and improvement suggestions
-- **Testing Feedback**: Beta version testing feedback is especially appreciated
-- **Translation Contributions**: Help improve multi-language support
-
-## 🙏 Acknowledgments
-
-Thank you to all amateur radio enthusiasts for your support and feedback, especially:
-- Users who provided valuable suggestions for testing
-- Constructive feedback that helped improve software functionality
-- Support and encouragement from the amateur radio community
-
----
-
-<div align="center">
-
-**HamTool - Making Amateur Radio Simpler** 📻
-
-[📧 Contact Us](#contact-us) • [📄 License](#license) • [⭐ Support Project](../../stargazers)
-
-Copyright © 2025 IamKenae (BG5EGG). All rights reserved.
-
-Made with ❤️ for the HAM community
-
-</div>
+See the [full changelog](./CHANGELOG.md) or [all releases](https://github.com/IamKenae/HAMTool/releases).
